@@ -1,0 +1,104 @@
+body{
+    animation-name: colorChange;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes colorChange {
+    0% { background-color:#ff9999; }
+    33% { background-color:#ccccff; }
+    67% { background-color:#b3d9ff; }
+    100% { background-color:#99e6e6; }
+}
+
+.disk{
+    position:absolute;
+    left: 53%;
+    top: 50%;
+
+    width: 600px;
+    height: 450px;
+
+    margin-left: -300px;
+    margin-top: -225px;
+
+    transform-origin: 48% 48.5%;
+
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.outline{
+    stroke: black;
+    stroke-width: 30px;
+    fill:none;
+}
+
+@keyframes rotate {
+    0% {transform: rotate(0deg); }
+    100% {transform: rotate(360deg); }
+}
+
+.shadow{
+    position: absolute;
+    left: 53%;
+    top: 50%;
+
+    width: 600px;
+    height: 430px;
+
+    margin-left: -347px;
+    margin-top: -208px;
+}
+
+.tone-arm{
+    stroke: black;
+    stroke-width: 30px;
+
+    width: 600px;
+    height: 450px;
+
+    position:absolute;
+    left: 53%;
+    top: 50%;
+
+    margin-left: -348px;
+    margin-top: -217px;
+}
+
+.other{
+    width: 600px;
+    height: 420px;
+
+    margin-left: -353.5px;
+    margin-top: -201px;
+
+    transform: scale(1.02,1.1)
+
+}
+
+.sakura{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.sakura-fill{
+    filter: drop-shadow(0 0 0.3rem #f0e0c7);
+}
+
+.sakura-shadow{
+    fill: #f5b6ae;
+}
+
+.sakura-center{
+    fill: none;
+    stroke-width: 30px;
+    stroke:white;
+}
