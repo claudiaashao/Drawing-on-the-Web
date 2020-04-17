@@ -8,4 +8,4 @@ For the plane window page, there will be clouds and random objects outside the w
 For the cactus, I’m planning to create a 3D cactus that change colors and shape based on whichever style the user chooses. There will also be an option to water the plant and monitor and water level as time passes, so it will be almost like a mini game. 
 All three drawings will follow a pastel neon color palette and have similar illustration styles. 
 
-[link to project prototype]((https://i6.cims.nyu.edu/~zs1282/drawing/finalproject/))
+[link to project prototype](https://i6.cims.nyu.edu/~zs1282/drawing/finalproject/)
