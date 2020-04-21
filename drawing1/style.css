@@ -7,10 +7,21 @@ body{
 }
 
 @keyframes colorChange {
-    0% { background-color:#ff9999; }
-    33% { background-color:#ccccff; }
-    67% { background-color:#b3d9ff; }
-    100% { background-color:#99e6e6; }
+    0% { background-color:#ffd9d9; }
+    33% { background-color:#e8e8ff; }
+    67% { background-color:#deeeff; }
+    100% { background-color:#bce6e6; }
+}
+
+img{
+    position:absolute;
+    width: 100vw;
+    height: 100vh;
+
+    top:0;
+    left:0;
+
+    mix-blend-mode: overlay;
 }
 
 .disk{
@@ -101,4 +112,17 @@ body{
     fill: none;
     stroke-width: 30px;
     stroke:white;
+}
+
+span{
+    position:absolute;
+    left: 53%;
+    top: 50%;
+
+    margin-left: -130px;
+    margin-top: -129px;
+
+    width: 240px;
+    height: 240px;
+    border-radius: 125px;
 }

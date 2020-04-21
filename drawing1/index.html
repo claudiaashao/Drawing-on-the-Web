@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <audio autoplay loop src="lofi.mp3"></audio>
+    <audio class="lofi" loop src="lofi.mp3"></audio>
     <audio autoplay loop src="vinyl.mp3"></audio>
+
+    <img src="sakura-falling.gif" alt="sakura falling">
 
     <svg class="disk">
         <use href="sprite.svg#disk-fill"/>
@@ -39,35 +41,8 @@
         </svg>
     </div>
 
-    <script>
-        const flower = document.querySelectorAll('.sakura');
+    <span></span>
 
-        let frameX = 10;
-        let frameY = 0;
-        let dx = 4;
-        let dy = 6;
-        let animation = requestAnimationFrame(move);
-
-        function move(){
-            animation = requestAnimationFrame(move);
-
-            if( (frameX + dx) > window.innerWidth || (frameX + dx) < 0 ){
-                dx = -dx;
-            }
-            if( (frameY + dy) > window.innerHeight|| (frameY + dy) < 0){
-                dy = -dy;
-            }
-
-            frameX += dx;
-            frameY += dy;
-
-            for(i=0; i<=2; i++){
-                flower[i].style.left = frameX + "px";
-                flower[i].style.top = frameY + "px";
-                flower[i].style.transform = "rotate(60deg)" + "scale(2.5)";
-                flower[i].style.transition = "3s ease";
-            }
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
