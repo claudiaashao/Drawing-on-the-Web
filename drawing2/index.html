@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Drawing 2</title>
+</head>
+<body>
+    <audio autoplay loop src="flight.mp3"></audio>
+
+    <svg class="sky">
+        <use href="sprite.svg#sky"/>
+    </svg>
+
+    <svg class="cloud1">
+        <use href="sprite.svg#cloud1"/>
+    </svg>
+
+    <svg class="wing">
+        <use href="sprite.svg#wing"/>
+    </svg>
+
+    <svg class="cloud2">
+        <use href="sprite.svg#cloud2"/>
+    </svg>
+
+    <span class="block left-block"></span>
+    <span class="block right-block"></span>
+    <span class="block bottom-left-block"></span>
+    <span class="block bottom-right-block"></span>
+
+    <span class = "dark-filter"></span>
+
+    <svg class="window">
+        <use href="sprite.svg#window-fill"/>
+    </svg>
+
+    <svg class="window">
+        <use href="sprite.svg#window-outline"/>
+    </svg>
+
+    <div>
+        <img class="chair" src="chair.png" alt="airplane seat">
+        <img class="chair" src="chair.png" alt="airplane seat">
+        <img class="chair" src="chair.png" alt="airplane seat">
+    </div>
+
+    <span class = "clouds"></span>
+
+    <span class="hover-indicator"></span>
+
+    <script src="script.js"></script>
+</body>
+</html>
