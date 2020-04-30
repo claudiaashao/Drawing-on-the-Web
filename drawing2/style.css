@@ -126,43 +126,49 @@ body{
     margin-top:-130px;
 }
 
-.clouds{
-    position: absolute;
-    top: 0;
-    left: 0;
-
+.rain{
+    position:absolute;
     width: 100vw;
     height: 100vh;
 
-    background: url(clouds.gif);
-    background-size: cover;
+    top:0;
+    left:0;
 
-    mix-blend-mode: multiply;
+    opacity:0;
+}
+
+.clouds{
+    position:absolute;
+    width: 100vw;
+    height: 100vh;
+
+    top:0;
+    left:0;
+
     opacity: 0;
+    mix-blend-mode: multiply;
 }
 
 .chair{
     position: absolute;
-    bottom: 0%;
+    bottom: 5%;
 
     width: 420px;
     height: 450px;
 
-    transform: scale(3);
+    transform: scale(2);
+    opacity: 1;
 }
 
-img:nth-child(1){
-    left: 40%;
+.chair:nth-child(1){
+    left: 35%;
 }
-
-img:nth-child(2){
-    left: -8%;
+.chair:nth-child(2){
+    left: 2%;
 }
-img:nth-child(3){
-    left: 88%;
+.chair:nth-child(3){
+    left: 68%;
 }
-
-
 
 
 .hover-indicator{
