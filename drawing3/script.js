@@ -60,8 +60,6 @@ function cactusbgChange(){
 function showgif (){
     gif.style.opacity = 0.5;
     gif.style.transition = "all 1s ease";
-
-    console.log("gif by Amanda Bonaiuto");
 }
 
 function hidegif (){
