@@ -1,0 +1,99 @@
+body{
+    background-color:#a69aac;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+span{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top:0;
+    left:0;
+
+    background: url(cactus.gif);
+    /* gif by Amanda Bonaiuto */
+
+    opacity: 0;
+    mix-blend-mode: overlay;
+}
+
+.pot{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    height: 600px;
+    width: 600px;
+
+    transform:scale(1.2);
+}
+
+.pot-fill{
+    margin-top:100px;
+    margin-left:-145px;
+}
+
+.pot-outline{
+    fill:none;
+    stroke-width:20px;
+
+    margin-top:97px;
+    margin-left: -150px;
+}
+
+.cactus{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    height: 600px;
+    width: 600px;
+    transform:scale(1.2);
+
+    margin-top: -110px;
+    margin-left: -37px;
+}
+
+.cactus-bg{
+    fill:#59964b;
+}
+
+.cactus-fill{
+    margin-top: -107px;
+    margin-left: -35px;
+}
+
+.cactus-outline{
+    fill:none;
+    stroke:#405441;
+    stroke-width:20px;
+}
+
+
+.water{
+    position: absolute;
+    top: -250px;
+    left: 50%;
+
+    margin-left: -190px;
+
+    height: 400px;
+    width: 400px;
+
+    fill:#b1d1e1;
+
+    transform:scale(1.2);
+}
+
+img{
+    mix-blend-mode: multiply;
+    position: absolute;
+
+    top: 50%;
+    clip: rect(100px, 195px, 250px, 70px);
+
+    transform: scale(0.5);
+}
+
