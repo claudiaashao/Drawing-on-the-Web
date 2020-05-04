@@ -19,5 +19,5 @@ My third drawing is the most interactive one. Viewers will see a cactus that sta
 
 I hope after browsing through my drawings, you will feel calm and relaxed. Maybe you can even have it playing in the back while you study :)
 
-## I have given credits to the creators for all the images/sound I used. See in-line comments for citations.
+##### I have given credits to the creators for all the images/sound I used. See in-line comments for citations.
 
