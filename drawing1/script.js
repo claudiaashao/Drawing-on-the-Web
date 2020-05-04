@@ -38,10 +38,6 @@ function sakuraSize(){
         direction *= -1;
     } 
 
-    // if(scale > 360 || scale < 0){
-    //     direction *= -1;
-    // } 
-
     scale += 0.1 * direction;
     deg += 60;
 
