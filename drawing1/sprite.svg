@@ -1,6 +1,6 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-    <!-- record player -->
+    <!-- record player inspired by Lydia Amaruch-->
     <symbol id="disk-fill" viewBox="0 0 2000 2000">
         <path class="pink" style="fill:#ffe6e6;" d="M402.86,922.2C424.8,664.15,638.32,444.92,903.63,425.53c294.1-21.5,561.21,209.18,582.87,504.88,22.9,312.6-236.12,593.89-554.13,587C616.6,1510.5,377.34,1222.4,402.86,922.2Z"/>
         <path class="blue" style="fill:#00cccc;" d="M685.88,947.61C696.35,824.41,798.3,719.74,925,710.48c140.42-10.26,267.94,99.87,278.28,241,10.94,149.25-112.73,283.54-264.56,280.24C787.93,1228.48,673.69,1090.93,685.88,947.61Z"/>
@@ -80,4 +80,5 @@
     </symbol>
 </defs>
 </svg>
+
 
