@@ -20,8 +20,6 @@ My finish projects include a navigation page and drawings of 3 different objects
 
 I hope after browsing through my drawings, you will feel calm and relaxed. Maybe you can even have it playing in the back while you study :)
 
-##### I have given credits to the sources for all the images/sound I used (see in-line comments).
-
-All sound/images are used purely for educational purposes. Please contact me if you do not want your work to be used in this project.
+##### I have given credits to the sources for all the gif/sound I used (see in-line comments).
 
 
