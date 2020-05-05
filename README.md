@@ -18,7 +18,7 @@ My finish projects include a navigation page and drawings of 3 different objects
 - My third drawing is the most interactive one. Viewers will see a cactus that starts off looking yellow and unhealthy. When they click on the water image, actual water will fall to help the cactus turn greener and healthier. The system will send alerts to inform viewers if they failed to water the cactus or overwatered it.
 
 
-I hope after browsing through my drawings, you will feel calm and relaxed. Maybe you can even have it playing while you study :)
+I hope after browsing through my drawings, you will feel calm and relaxed. :)
 
 ##### ** sources have been cited for all the gifs/sound used in the project (see in-line comments). **
 
