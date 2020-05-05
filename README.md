@@ -20,7 +20,7 @@ My finish projects include a navigation page and drawings of 3 different objects
 
 I hope after browsing through my drawings, you will feel calm and relaxed. :)
 
-##### ** sources have been cited for all the gifs/sound used in the project (see in-line comments). **
+##### ** sources have been cited for all the gifs/sound not created by me (see in-line comments). **
 
 
 
